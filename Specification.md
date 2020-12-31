@@ -22,5 +22,5 @@ The other types are too complex for gura, so, I didn't implement them.
 | 6 |  | Useless (like aqua)
 | 7 |  | Not used since the language must be the simpler possible
 | 8 | (j)A(mp) | jump to a different instruction if the condition is true, the first value in the stack is the offset and the second value is the condition
-| 9 | (C)A(nvert) | convert the first value in the stack to his ASCII corresponding code
+| 9 | (C)A(nvert) | convert the first value in the stack to his ASCII corresponding char
 | A |  | push A-10 "A" in the stack
