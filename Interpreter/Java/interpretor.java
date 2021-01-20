@@ -17,7 +17,24 @@ public class interpretor {
                 String line = sc.next();
                 int aCount = 0;
                 for (int i = 0; i < line.length(); i++){
-                    if (line.charAt(i) != 'a' && line.charAt(i) != 'A'){
+                    if (    line.charAt(i) != 'a' &&
+                            line.charAt(i) != 'A' &&
+                            line.charAt(i) != 'â' &&
+                            line.charAt(i) != 'Â' &&
+                            line.charAt(i) != 'ä' &&
+                            line.charAt(i) != 'Ä' &&
+                            line.charAt(i) != 'à' &&
+                            line.charAt(i) != 'À' &&
+                            line.charAt(i) != 'á' &&
+                            line.charAt(i) != '@' &&
+                            line.charAt(i) != 'Á' &&
+                            line.charAt(i) != 'å' &&
+                            line.charAt(i) != 'Å' &&
+                            line.charAt(i) != 'ã' &&
+                            line.charAt(i) != 'Ã' &&
+                            line.charAt(i) != 'æ' &&
+                            line.charAt(i) != 'Æ'
+                    ){
                         throw new Exception("A");
                     }
                     else {
