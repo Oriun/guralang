@@ -55,14 +55,18 @@ public class interpretor {
                     case 6:
                     case 7:
                         throw new Exception("A");
-                        /*NOT IMPLEMENTED RIGHT NOW, WILL FINISH IT NEXT YEAR
                     case 8:
                         a = Integer.parseInt(stack.pop().toString());
                         if((boolean) stack.pop()){
                             for (int j = 0; j < a; j++){
                                 sc.next();
                             }
-                        }*/
+                        }
+                        break;
+                    case 9:
+                        a = Integer.parseInt(stack.pop().toString());
+                        stack.push((char)a);
+                        break;
                     default:
                         stack.push(aCount-10);
                         break;
