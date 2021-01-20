@@ -46,6 +46,8 @@ public class interpretor {
                 int a;
                 int b;
                 switch (aCount){
+                    case 0:
+                        break;
                     case 1:
                         stack.push("A");
                         break;
@@ -93,7 +95,7 @@ public class interpretor {
             readStack();
         } catch (Exception e)
         {
-            System.out.println("ERROR");
+            System.out.println(e);
         }
 
     }
