@@ -1,10 +1,9 @@
 # The specification of the GuraLang
 (highly inspired by the chicken lang : http://web.archive.org/web/20180420010949/http://torso.me/chicken-spec)
 ## Types
-4 types are available in the guralang:
+3 types are available in the guralang:
 *   Int
 *   Char
-*   String
 *   Boolean
 
 The other types are too complex for gura, so, I didn't implement them.
